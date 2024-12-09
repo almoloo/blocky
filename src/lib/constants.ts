@@ -1,4 +1,6 @@
-export const contractBlocks = [
+import { ContractBlock } from "./definitions";
+
+export const contractBlocks: ContractBlock[] = [
   // Contract Setup Blocks
   {
     id: "contract-name",
